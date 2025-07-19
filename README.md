@@ -3,7 +3,4 @@
 
 ## What is Robocup?
 [Robocup Junior Soccer Open](https://junior.robocup.org/soccer/) is a league of the international robotic competition: [RoboCup](https://robocup.org).
-
-RoboCup Junior Soccer Open is an international robotics competition where teams of 2-4 students (ages 14-19) design, build, and program two fully autonomous robots to compete in soccer matches. Teams face off in 2v2 games on a 122cm × 183cm field, where robots must detect and track an orange golf ball using computer vision, navigate the field independently, and score goals - all without any human intervention during gameplay.
-
-The Open league represents the most challenging level of junior robot soccer, requiring advanced skills in programming, computer vision, artificial intelligence, and mechanical design. Unlike the Lightweight league which uses an infrared-emitting ball, Open league robots must solve the significantly harder problem of detecting a passive orange golf ball under varying lighting conditions, making it an excellent stepping stone toward professional robotics competitions.
+For this competition, we need to create _two fully autonomous robots_ that play _soccer_ against other teams. We have to design, build and program the robots without external help. This is a really challenging problem because the robots need to be fully autonomous. They need to detect the ball and try to go towards it to hopefully push it towards the goal. A camera system is needed to try to detect the ball based on its color and to detect the opponent's goal. 
