@@ -1,5 +1,6 @@
 # The following are the comoponents we used on the robots for the 2025 competitions
 These are the components _per robot_
+<span style="color: #FF0000;">This text is red</span>
 
 - Motor controllers:
    - TB6612FNG Motor Driver x2
