@@ -1,3 +1,6 @@
+# The cone:
+![Our cone](../media/cone.jpeg)
+
 ## What's the cone for?
 
 Robots need to find the ball with the help of a camera. Many robots that simply place cameras in front of their robots need to make them spin until the ball enters the camera's field of vision, and can go towards it. This is a slow strategy. Instead of having the camera placed like this and having to spin slowly, many teams have found alternatives. The main alternatives are:
@@ -12,7 +15,7 @@ We had an openmv h7 cam pointed at a cnc-machined aluminum cone.
 Many teams use hyperbolic mirors to have a view of the field. The cross section of the cone is hyperbolic. We decided to try something different. In the camera's view, using a hyperbolic mirror, the field is very distorted. Seeing this issue, we created a program that creates the perfect cone shape (cross section) for the view of the field to be a rectangle in the image given many inputs such as the camera's position, the cone's position and the field of view. The camera returns an image of the field similar to a photo being taken from far above the field. The value of such an image is that the distance between two points that 15 pixels on the image represents is equivalent to those same 15 pixels somewhere else in the image. We can measure distances in pixels between objects straight off the image, multiply it by a constant and get centimeters. This let us rely solely on the camera to go towards the ball, go towards the goal and avoid going out of bounds.
 
 
-![Robot Demo](../media/cone_program_video.gif)
+![Cone designing program](../media/cone_program_video.gif)
 *The program has a GUI to let the user create the perfect cone shape based on the parameters. The red point is the camera. the whole image is a cross section of the field. the weirdly shaped line above the camera is the cross section of the cone. It outputs the stl file of the wanted cone when the program shuts.*
 
 ## What we would change for the 2026 competition
