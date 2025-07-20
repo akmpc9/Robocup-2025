@@ -1,3 +1,16 @@
-# What's the cone for?
+## What's the cone for?
 
-Robots need to find the ball with the help of a camera. Many robots that simply place cameras in front of their robots need to make them spin until the ball enters the camera's field of vision, and can go towards it.
+Robots need to find the ball with the help of a camera. Many robots that simply place cameras in front of their robots need to make them spin until the ball enters the camera's field of vision, and can go towards it. This is a slow strategy. Instead of having the camera placed like this and having to spin slowly, many teams have found alternatives. The main alternatives are:
+1. A camera with a fish-eye lens pointing down on the field.
+2. Many cameras distributed around the robot.
+3. A camera pointed up at a reflective cone.
+
+Most teams go for the third option and so did we. A camera is pointing straight up from the center of the robot. A reflective cone (often cnc machined or created with a reflective film) is placed above it and lets the camera see an image of the field in the reflection. This lets the camera see in 360°.
+We had an openmv h7 cam pointed at a cnc-machined aluminum cone.
+
+## Why our cone is interesting
+
+## What we would change for the 2026 competition
+For next year, we will change many things around the cone:
+1. The weight / size. The cone was rather large (6cm in diameter) and therefor raised the center of gravity (making strong accelerations lift a wheel off the ground. This is very negative as it means we lose some control over the robot's movement, and the vision system also breaks down due to measured distances not being valid at all when the robot isn't flat on the ground). Next year, we will create much smaller cones to avoid these issues and to reduce the price of the raw materials.
+2. Although the program gave us the shape of the cone we wanted based on our inputted values, it turned out that a range of 1.5m isn't quite enough for the robot (we couldn't see the opponent's goal when we were in our half of the field for example). In other words, the system that gave us the cone worked well, but the values that we gave it will be changed for next year. Another solution to the issue of not seeing the opponent's goal is simply using a lidar (which is the plan for next year's robots) to know exactly where the robot is on the field with the camera only inputting which goal is the closest rather than finding the opponent's goal position.
