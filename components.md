@@ -2,7 +2,7 @@
 These are the components _per robot_
 
 - motor controllers:
-- - TB6612FNG Motor Driver x2
+   - TB6612FNG Motor Driver x2
 
 
 
