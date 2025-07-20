@@ -1,11 +1,23 @@
+# macOS
 .DS_Store
 */.DS_Store
 
+# Node & build artifacts
 dist/
 build/
-
 node_modules/
 
+# Environment & editor files
 .env
-
 *.swp
+
+# CMake
+CMakeLists.txt
+**/CMakeLists.txt
+
+# Clangd cache
+.cache/clangd/index/
+.cache/clangd/index
+
+# (Optional: also ignore all .cache/ folders if you want)
+# .cache/
